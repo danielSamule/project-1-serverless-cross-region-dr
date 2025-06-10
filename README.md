@@ -83,7 +83,8 @@ Install Axios for making HTTP requests:
 
 Replace the contents of src/App.js with the following code:
 
-```import React, { useState } from 'react';
+```javascript
+import React, { useState } from 'react';
 import axios from 'axios';```
 
 Create source code
