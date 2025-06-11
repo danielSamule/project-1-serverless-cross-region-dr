@@ -68,7 +68,7 @@ exports.handler = async (event) => {
 5.  Click on "Next" and then "Add integration".
 6.  Choose "Lambda" and select your Lambda function.
 7.  Define a route (e.g., POST /submit).
-8. Deploy the API and note the endpoint URL.
+8.  Deploy the API and note the endpoint URL.
 
 ### 3. Create React frontend
 
@@ -85,11 +85,9 @@ Replace the contents of src/App.js with the following code:
 
 ```javascript
 import React, { useState } from 'react';
-import axios from 'axios';```
+import axios from 'axios';
+import './App.css';
 
-Create source code
-
-```javascript
  function App() {
     const [id, setId] = useState('');
     const [data, setData] = useState('');
